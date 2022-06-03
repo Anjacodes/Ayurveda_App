@@ -4,8 +4,22 @@
 @tailwind utilities;
 /* stylelint-enable */
 
+@font-face {
+  font-family: "ELANOR";
+  src: url("./assets/fonts/Elanor.otf");
+}
+
+@font-face {
+  font-family: "MUNDIAL";
+  src: url("./assets/fonts/MundialRegular.otf");
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
 }
