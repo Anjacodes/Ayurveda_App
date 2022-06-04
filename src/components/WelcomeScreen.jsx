@@ -3,8 +3,8 @@ import backgroundVideo from '../assets/meditation.mp4';
 
 function WelcomeScreen() {
   return (
-    <div>
-      <h2 className="text-right text-[6rem] font-elanor w-[51%] text-white fixed top-[30vh] right-0 mr-[5%]">
+    <div className="relative">
+      <h2 className="text-right text-[6rem] font-elanor w-[51%] text-white absolute top-[30vh] right-0 mr-[5%]">
         Life is
         <span className="font-mundial"> not </span>
         merely to be alive, but to be

@@ -11,7 +11,7 @@ import Home from './components/Home';
 
 export const App = () => (
   <Router>
-    <div className="flex flex-col items-center">
+    <div>
       <Navbar />
       <Routes>
         <Route exact path="/calculator" element={<Calculator />} />
