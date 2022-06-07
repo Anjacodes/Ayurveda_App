@@ -1,14 +1,14 @@
 module.exports = {
   content: [
-    "./src/**/*.{js,jsx,ts,tsx}",
+    './src/**/*.{js,jsx,ts,tsx}',
   ],
   theme: {
     extend: {
       fontFamily: {
-        elanor: ["Elanor", "serif"],
-        mundial: ["Mundial", "sans-serif"]
+        elanor: ['Elanor', 'serif'],
+        mundial: ['Mundial', 'sans-serif'],
       },
     },
   },
   plugins: [],
-}
+};
