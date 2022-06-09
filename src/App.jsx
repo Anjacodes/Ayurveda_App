@@ -10,6 +10,7 @@ import Quote from './components/Quote';
 import Home from './components/Home';
 import AboutAyurveda from './components/AboutAyurveda';
 import DoshaDetails from './components/DoshaDetails';
+import DoshaQuiz from './components/DoshaQuiz';
 
 export const App = () => (
   <Router>
@@ -21,6 +22,7 @@ export const App = () => (
         <Route exact path="/quote" element={<Quote />} />
         <Route exact path="/ayurveda" element={<AboutAyurveda />} />
         <Route exact path=":dosha_id" element={<DoshaDetails />} />
+        <Route exact path="/doshaQuiz" element={<DoshaQuiz />} />
       </Routes>
     </div>
   </Router>

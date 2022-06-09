@@ -8,6 +8,7 @@ module.exports = {
         elanor: ['Elanor', 'serif'],
         mundial: ['Mundial', 'sans-serif'],
       },
+      display: ["group-hover"],
     },
   },
   plugins: [],

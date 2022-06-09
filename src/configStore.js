@@ -1,9 +1,11 @@
 import { configureStore } from '@reduxjs/toolkit';
 import logger from 'redux-logger';
+import { doshaDetailsReducer } from './redux/doshas/doshaDetailsSlice';
 import { doshasReducer } from './redux/doshas/doshasSlice';
 
 const reducer = {
   doshas: doshasReducer,
+  doshaDetails: doshaDetailsReducer
 };
 
 const store = configureStore({
