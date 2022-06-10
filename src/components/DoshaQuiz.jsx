@@ -67,13 +67,14 @@ function DoshaQuiz() {
                 <br />
                 <p className="text-lg">If you developed an illness in childhood or as an adult, think of how things were for you before that illness. If more than one quality is applicable in each characteristic, choose the one that applies the most.</p>
            </div>
-           <div className="mt-12 bg-[#efdcdc] px-10 py-16 rounded-lg">
+           <div className="mt-12 bg-[#efdcdc] px-10 py-16 rounded-lg flex flex-col justify-between">
                <h3 className="mb-10 font-elanor text-3xl text-[#aa1640]">{questions[currentQuestion].question}</h3>
                <ul className="flex items-center justify-between">
                    {questions[currentQuestion].answers.map((answer) => {
-                       return <li key={answer.id} className="mr-6 rounded-xl bg-[#f3efeb] shadow-lg p-6 hover:cursor-pointer hover:bg-[#aa1640] hover:text-white" onClick={() => {handleSelect(answer.id)}}>{answer.text}</li>
+                       return <li key={answer.id} className="mr-6 mb-4 rounded-xl bg-[#f3efeb] shadow-lg p-6 hover:cursor-pointer hover:bg-[#aa1640] hover:text-white" onClick={() => {handleSelect(answer.id)}}>{answer.text}</li>
                     })}
                </ul>
+               <p className="mt-auto">Question: {currentQuestion+1}/10</p>
            </div>
         </div>
     </div>
