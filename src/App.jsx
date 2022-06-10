@@ -22,7 +22,7 @@ export const App = () => (
         <Route exact path="/quote" element={<Quote />} />
         <Route exact path="/ayurveda" element={<AboutAyurveda />} />
         <Route exact path=":dosha_id" element={<DoshaDetails />} />
-        <Route exact path="/doshaQuiz" element={<DoshaQuiz />} />
+        <Route exact path="/dosha_quiz" element={<DoshaQuiz />} />
       </Routes>
     </div>
   </Router>

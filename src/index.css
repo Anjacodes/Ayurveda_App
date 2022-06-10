@@ -23,3 +23,8 @@
 html {
   scroll-behavior: smooth;
 }
+
+p,
+label {
+  font-family: "MUNDIAL", sans-serif;
+}
