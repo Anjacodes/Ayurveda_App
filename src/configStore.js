@@ -5,7 +5,7 @@ import { doshasReducer } from './redux/doshas/doshasSlice';
 
 const reducer = {
   doshas: doshasReducer,
-  doshaDetails: doshaDetailsReducer
+  doshaDetails: doshaDetailsReducer,
 };
 
 const store = configureStore({
