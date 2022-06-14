@@ -11,6 +11,7 @@ import Home from './components/Home';
 import AboutAyurveda from './components/AboutAyurveda';
 import DoshaDetails from './components/DoshaDetails';
 import DoshaQuiz from './components/DoshaQuiz';
+import Footer from './shared_components/Footer';
 
 export const App = () => (
   <Router>
@@ -24,6 +25,7 @@ export const App = () => (
         <Route exact path=":dosha_id" element={<DoshaDetails />} />
         <Route exact path="/dosha_quiz" element={<DoshaQuiz />} />
       </Routes>
+      <Footer />
     </div>
   </Router>
 );

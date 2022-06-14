@@ -5,7 +5,7 @@ import questions from './quizQuestions';
 
 function DoshaQuiz() {
 
-  let [currentQuestion, setCurrentQuestion] = useState(10);
+  let [currentQuestion, setCurrentQuestion] = useState(0);
   let [answer1Count, setAnswer1Count] = useState(0);
   let [answer2Count, setAnswer2Count] = useState(0);
   let [answer3Count, setAnswer3Count] = useState(0);
@@ -32,7 +32,7 @@ function DoshaQuiz() {
   }
 
   return (
-    <div className="flex flex-col items-center bg-[#f3efeb] relative">
+    <div className="flex flex-col items-center bg-[#f3efeb] relative pb-12">
         <div className="flex justify-between h-full">
             <div className="mt-[30vh] ml-[5vw]">
                 <p>TAKE THE QUIZ</p>
