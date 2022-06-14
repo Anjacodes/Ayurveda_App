@@ -25,6 +25,13 @@ html {
 }
 
 p,
-label {
+label,
+li {
   font-family: "MUNDIAL", sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "ELANOR", serif;
 }
