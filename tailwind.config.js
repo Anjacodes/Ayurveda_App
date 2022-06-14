@@ -1,9 +1,15 @@
 module.exports = {
   content: [
-    "./src/**/*.{js,jsx,ts,tsx}",
+    './src/**/*.{js,jsx,ts,tsx}',
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        elanor: ['Elanor', 'serif'],
+        mundial: ['Mundial', 'sans-serif'],
+      },
+      display: ['group-hover'],
+    },
   },
   plugins: [],
-}
+};
