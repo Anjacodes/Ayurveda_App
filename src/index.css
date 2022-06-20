@@ -20,6 +20,10 @@
   padding: 0;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -34,4 +38,25 @@ h1,
 h2,
 h3 {
   font-family: "ELANOR", serif;
+}
+
+.mask {
+  width: 100vw;
+  height: 100vh;
+  background-size: contain;
+  background-position: center;
+  -webkit-mask-image: url(./assets/images/palace.png);
+  mask-image: url(./assets/images/palace.png);
+  -webkit-mask-repeat: no-repeat;
+  mask-size: 75vmin;
+  mask-repeat: no-repeat;
+  mask-position: center;
+}
+
+.mask1 {
+  background-image: url(./assets/images/foods.jpg);
+}
+
+.mask2 {
+  background-image: url(./assets/images/soup.jpg);
 }
