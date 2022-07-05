@@ -1,8 +1,8 @@
 import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';
-import { fetchDoshas } from '../redux/doshas/doshasSlice';
-import promote from '../assets/images/promote.png';
+import { fetchDoshas } from '../../redux/doshas/doshasSlice';
+import promote from '../../assets/images/promote.png';
 
 function DoshasHome() {
   const dispatch = useDispatch();
